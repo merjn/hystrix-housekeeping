@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyr.Application", "src\Skyr.Application\Skyr.Application.csproj", "{AC554E74-DC39-454D-9650-C6E2217B4A8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyr.Domain", "src\Skyr.Domain\Skyr.Domain.csproj", "{7F9EFA8A-07B4-4869-B3B3-F7D4A120F34B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyr.Authentication", "src\Skyr.Authentication\Skyr.Authentication.csproj", "{E0C3DD77-96EB-45A2-92FC-E3A2D89A9BCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyr.Web", "src\Skyr.Web\Skyr.Web.csproj", "{57043519-44B8-442F-B25C-A218B0DB795A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC554E74-DC39-454D-9650-C6E2217B4A8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC554E74-DC39-454D-9650-C6E2217B4A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC554E74-DC39-454D-9650-C6E2217B4A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC554E74-DC39-454D-9650-C6E2217B4A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F9EFA8A-07B4-4869-B3B3-F7D4A120F34B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F9EFA8A-07B4-4869-B3B3-F7D4A120F34B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F9EFA8A-07B4-4869-B3B3-F7D4A120F34B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F9EFA8A-07B4-4869-B3B3-F7D4A120F34B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0C3DD77-96EB-45A2-92FC-E3A2D89A9BCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0C3DD77-96EB-45A2-92FC-E3A2D89A9BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0C3DD77-96EB-45A2-92FC-E3A2D89A9BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0C3DD77-96EB-45A2-92FC-E3A2D89A9BCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57043519-44B8-442F-B25C-A218B0DB795A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57043519-44B8-442F-B25C-A218B0DB795A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57043519-44B8-442F-B25C-A218B0DB795A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57043519-44B8-442F-B25C-A218B0DB795A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
