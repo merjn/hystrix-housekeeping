@@ -1,12 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyr.Application", "src\Skyr.Application\Skyr.Application.csproj", "{AC554E74-DC39-454D-9650-C6E2217B4A8D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hystrix.Application", "src\Hystrix.Application\Hystrix.Application.csproj", "{AC554E74-DC39-454D-9650-C6E2217B4A8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyr.Domain", "src\Skyr.Domain\Skyr.Domain.csproj", "{7F9EFA8A-07B4-4869-B3B3-F7D4A120F34B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hystrix.Domain", "src\Hystrix.Domain\Hystrix.Domain.csproj", "{7F9EFA8A-07B4-4869-B3B3-F7D4A120F34B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyr.Authentication", "src\Skyr.Authentication\Skyr.Authentication.csproj", "{E0C3DD77-96EB-45A2-92FC-E3A2D89A9BCC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hystrix.Infra.Authentication", "src\Hystrix.Infra.Authentication\Hystrix.Infra.Authentication.csproj", "{E0C3DD77-96EB-45A2-92FC-E3A2D89A9BCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyr.Web", "src\Skyr.Web\Skyr.Web.csproj", "{57043519-44B8-442F-B25C-A218B0DB795A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hystrix.Web", "src\Hystrix.Web\Hystrix.Web.csproj", "{57043519-44B8-442F-B25C-A218B0DB795A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hystrix.Infra.Storage", "Hystrix.Infra.Storage\Hystrix.Infra.Storage.csproj", "{886A9B70-D7FE-4712-8223-B2CB5A1B6981}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,5 +32,9 @@ Global
 		{57043519-44B8-442F-B25C-A218B0DB795A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57043519-44B8-442F-B25C-A218B0DB795A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57043519-44B8-442F-B25C-A218B0DB795A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{886A9B70-D7FE-4712-8223-B2CB5A1B6981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{886A9B70-D7FE-4712-8223-B2CB5A1B6981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{886A9B70-D7FE-4712-8223-B2CB5A1B6981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{886A9B70-D7FE-4712-8223-B2CB5A1B6981}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
