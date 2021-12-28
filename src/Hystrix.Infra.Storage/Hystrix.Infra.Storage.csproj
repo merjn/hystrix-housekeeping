@@ -2,7 +2,6 @@
 
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
-        <RootNamespace>Skyr.Storage</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -10,11 +9,12 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\src\Hystrix.Domain\Hystrix.Domain.csproj" />
+      <ProjectReference Include="..\Hystrix.Domain\Hystrix.Domain.csproj" />
     </ItemGroup>
 
     <ItemGroup>
       <Folder Include="DependencyInjection" />
+      <Folder Include="Migrations" />
     </ItemGroup>
 
 </Project>
