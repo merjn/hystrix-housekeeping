@@ -4,17 +4,17 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Http;
-using Hystrix.Application.Authentication;
-using IAuthenticationService = Hystrix.Application.Service.IAuthenticationService;
+using Hystrix.Domain.Service;
+using IAuthenticationService = Hystrix.Domain.Service.IAuthenticationService;
 
 namespace Hystrix.Infra.Authentication
 {
-    public class AspNetCookieAuthenticationServiceImpl : IAuthenticationService
+    public class AspNetCookieAuthenticationService : IAuthenticationService
     {
         private readonly AuthenticationOptionsFactory _authenticationOptionsFactory;
         private readonly HttpContext _httpContext;
 
-        public AspNetCookieAuthenticationServiceImpl(AuthenticationOptionsFactory authenticationOptionsFactory, HttpContext httpContext)
+        public AspNetCookieAuthenticationService(AuthenticationOptionsFactory authenticationOptionsFactory, HttpContext httpContext)
         {
             _authenticationOptionsFactory = authenticationOptionsFactory;
             _httpContext = httpContext;

@@ -2,13 +2,13 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 using Hystrix.Application.Exceptions;
-using Hystrix.Application.Hasher;
-using Hystrix.Application.Repository;
-using Hystrix.Application.Service;
 using Hystrix.Application.Specifications;
 using MediatR;
 using Hystrix.Domain.Entity.UserAggregate;
+using Hystrix.Domain.Hasher;
 using Hystrix.Domain.Permission;
+using Hystrix.Domain.Repository;
+using Hystrix.Domain.Service;
 using Unit = MediatR.Unit;
 
 namespace Hystrix.Application.Authentication

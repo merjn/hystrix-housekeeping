@@ -1,6 +1,6 @@
 using System;
 using Microsoft.Extensions.DependencyInjection;
-using Hystrix.Application.Service;
+using Hystrix.Domain.Service;
 
 namespace Hystrix.Infra.Authentication.DependencyInjection
 {
@@ -15,7 +15,7 @@ namespace Hystrix.Infra.Authentication.DependencyInjection
         {
             collection.AddScoped<AuthenticationOptionsFactory>();
 
-            collection.AddScoped<IAuthenticationService, AspNetCookieAuthenticationServiceImpl>();
+            collection.AddScoped<IAuthenticationService, AspNetCookieAuthenticationService>();
         }
     }
 }

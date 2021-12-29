@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
-using Hystrix.Application.Repository;
 using Hystrix.Domain.Entity.SiteConfigAggregate;
+using Hystrix.Domain.Repository;
 
 namespace Hystrix.Infra.Authentication
 {

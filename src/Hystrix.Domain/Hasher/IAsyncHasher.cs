@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 
-namespace Hystrix.Application.Hasher
+namespace Hystrix.Domain.Hasher
 {
     public interface IAsyncHasher
     {

@@ -2,10 +2,9 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 using Ardalis.Specification;
-using Hystrix.Domain.Entity;
 using Hystrix.Domain.Interfaces;
 
-namespace Hystrix.Application.Repository
+namespace Hystrix.Domain.Repository
 {
     public interface IAsyncRepository<T> where T : IAggregateRoot
     {
