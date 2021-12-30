@@ -1,6 +1,6 @@
 using System;
+using Hystrix.Domain.Authentication;
 using Microsoft.Extensions.DependencyInjection;
-using Hystrix.Domain.Service;
 
 namespace Hystrix.Infra.Authentication.DependencyInjection
 {

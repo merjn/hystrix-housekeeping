@@ -3,17 +3,17 @@ using System.Threading;
 using System.Threading.Tasks;
 using Hystrix.Application.Exceptions;
 using Hystrix.Application.Specifications;
+using Hystrix.Domain.Authentication;
 using MediatR;
 using Hystrix.Domain.Entity.UserAggregate;
 using Hystrix.Domain.Hasher;
 using Hystrix.Domain.Permission;
 using Hystrix.Domain.Repository;
-using Hystrix.Domain.Service;
 using Unit = MediatR.Unit;
 
-namespace Hystrix.Application.Authentication
+namespace Hystrix.Application.Commands.AuthenticateUser
 {
-    public sealed class AuthenticateUserHandler : IRequestHandler<AuthenticationViewModel, Unit>
+    public sealed class AuthenticateUserHandler : IRequestHandler<AuthenticateUserViewModel, Unit>
     {
         private readonly IAsyncHasher _hasher;
         private readonly IAuthenticationService _authenticationService;
@@ -29,7 +29,7 @@ namespace Hystrix.Application.Authentication
             _userRepository = userRepository;
         }
 
-        public async Task<Unit> Handle(AuthenticationViewModel request, CancellationToken cancellationToken)
+        public async Task<Unit> Handle(AuthenticateUserViewModel request, CancellationToken cancellationToken)
         {
             var hashedPassword = await _hasher.HashAsync(request.Password);
             

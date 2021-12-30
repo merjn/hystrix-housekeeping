@@ -1,11 +1,11 @@
 using System.Collections.Generic;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using Hystrix.Domain.Authentication;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Http;
-using Hystrix.Domain.Service;
-using IAuthenticationService = Hystrix.Domain.Service.IAuthenticationService;
+using IAuthenticationService = Hystrix.Domain.Authentication.IAuthenticationService;
 
 namespace Hystrix.Infra.Authentication
 {

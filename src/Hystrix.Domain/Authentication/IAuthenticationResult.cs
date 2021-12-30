@@ -1,4 +1,4 @@
-namespace Hystrix.Domain.Service
+namespace Hystrix.Domain.Authentication
 {
     public interface IAuthenticationResult
     {

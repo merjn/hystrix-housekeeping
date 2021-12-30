@@ -1,9 +1,9 @@
 using MediatR;
 using Hystrix.Application.Exceptions;
 
-namespace Hystrix.Application.Authentication
+namespace Hystrix.Application.Commands.AuthenticateUser
 {
-    public class AuthenticationViewModel : IRequest<MediatR.Unit>
+    public class AuthenticateUserViewModel : IRequest<Unit>
     {
         public string Username { get; init; }
         

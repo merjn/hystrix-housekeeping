@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using System.Security.Claims;
-using Hystrix.Domain.Service;
+using Hystrix.Domain.Authentication;
 
 namespace Hystrix.Infra.Authentication
 {
